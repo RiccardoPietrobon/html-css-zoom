@@ -1,7 +1,7 @@
 /* main */
 main{
     background-color: black;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 62px);
     position: relative;
 }
 /* speak */
@@ -47,15 +47,41 @@ main{
 
 /* footer */
 footer{
-    background-color: #222222;
-    height: 60px;
+    height: 62px;
 }
-
 nav{
+    background-color: #222222;
+
     display: flex;
     justify-content: space-between;
 }
 
-nav>div{
+.box-comandi{
     display: flex;
+    padding: 10px 0;
+    vertical-align: middle;
+}
+
+.comando{
+    padding: 0 10px;
+}
+
+.comando i{
+    font-size: 25px;
+}
+
+.comando i,
+.comando span{
+    display: block;
+    text-align: center;
+}
+
+.box-comandi:last-child{
+    color: red;
+    background-color: lightgray;
+    line-height: 60px;
+}
+
+.box-comandi>*{
+    vertical-align: middle;
 }
