@@ -1,0 +1,21 @@
+/* main */
+main{
+    background-color: black;
+    height: calc(100vh - 60px);
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.card{
+    width: calc(100%/7)
+}
+/* footer */
+footer{
+    background-color: #222222;
+    height: 60px;
+}
