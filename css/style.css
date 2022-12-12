@@ -5,15 +5,30 @@ main{
 }
 
 .main-container{
+    padding-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:center;
     column-gap: 10px;
 }
 
 .card{
-    width: calc(100%/7)
+    width: calc(100% / 7);
+    position: relative;
 }
+
+.card img{
+    display: block;
+}
+
+.card span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    backdrop-filter: blur(5px);
+    font-size: 15px;
+}
+
 /* footer */
 footer{
     background-color: #222222;
